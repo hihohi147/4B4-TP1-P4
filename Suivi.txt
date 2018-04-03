@@ -1,0 +1,33 @@
+Partage des taches
+
+Hamza:
+-Ergonomie de l'affichage de la facture:
+	s'assurer de mettre l'ordre dans les factures, mettre les taxes tps
+	et tvq, mettre les commandes erronees (avec la raison de l'erreur)
+	et mettre les details de chaque commandes. si client a une facture
+	a 0$, ne pas mettre dans fichier.
+-Couverture de code
+	utiliser EclEmma pour obtenir une couverture de code d'au moins 75%
+-Plateforme de gestions de bogues
+	mettre en place une plateforme de gestions de bogues et assigner les
+	bogues au membres de l'equipe.
+-3 tests unitaire:
+	effectuer 3 test unitaire pour tester les fonctionnalites et faire
+	3 pull-request
+
+William:
+-Ajout des commandes incorrectes:
+	affichage d'un message d'erreur dans le terminal si le nom du 
+	client ou du plat n'existe pas, si le format d'entree du client
+	du plat ou de la commande n'est pas respecte ou si les chiffres
+	dans le prix du plats ou du nombre de commande est errone.
+-Creation d'une facture:
+	creer un fichier .txt qui met a jour l'heure et la date, en plus
+	de rajouter la commande dans le fichier. rajouter aussi les
+	commandes erronees dans le bon ordre.
+-Branche Dev et package Test
+	S'occuper de creer et gerer le package de tests et la branche de Dev
+
+-3 tests unitaire:
+	effectuer 3 test unitaire pour tester les fonctionnalites et faire
+	3 pull-request
